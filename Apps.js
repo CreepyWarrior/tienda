@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import express from 'express'; 
 import cors from 'cors';
 import dotenv from 'dotenv'; 
-
+ 
 import testEmpleados from './backend/controllers/empleados.controller.js';
 import testClientes from './backend/controllers/clientes.controller.js';
 import testGerentes from './backend/controllers/gerentes.controller.js';
