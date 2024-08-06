@@ -1,14 +1,15 @@
-import { modeloPromociones } from "../models/promociones.model.js";
+import { modeloPromociones } from "../models/promociones.model.js"
 
 const test = () => {
     console.log("Promocion furulando xd")
 }
+
 export default test
 
 modeloPromociones.create({
-    objeto: "telefono",
-    marca: "Xiaomi",
-    precio: "10000",
-    descuento: "30",
-    Total: "7000"
+    objeto: "Laptop",
+    marca: "Lenovo",
+    precio: "12001",
+    descuento: "1",
+    Total: "12000"
 })

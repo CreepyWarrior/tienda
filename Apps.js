@@ -11,19 +11,20 @@ import testPromociones from './backend/controllers/promociones.controller.js';
 
 dotenv.config()
 mongoose.connect(process.env.url)
-/*Promesa*/
+
+
 .then(()=> {
-    console.log("Estoy furulando")
+    console.log("Promesa jala")
 })
-.catch((error) => {
-    console.log("No estoy furulando")
+.catch((err) => {
+    console.log("Promesa no jala")
 })
 
 const app =express()
 app.use(cors())
 
 app.listen(4500,()=>{
-    console.log("Estoy furulandooOOOOoooo")
+    console.log("Todo jala")
 })
 
 testClientes()

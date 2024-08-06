@@ -1,5 +1,5 @@
 {
-  "name": "coppelxd",
+  "name": "tienda",
   "version": "1.0.0",
   "main": "app.js",
   "type": "module",
@@ -8,9 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Karim",
+  "author": "Diego Josue",
   "license": "ISC",
-  "description": "Proyecto",
+  "description": "practica2",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
