@@ -2,7 +2,7 @@ import { modeloPromociones } from "../models/promociones.model.js"
 
 const test = () => {
     console.log("Promocion furulando xd")
-}
+} 
  
 export default test
 
